@@ -19,6 +19,7 @@
   background-color: rgb(16, 15, 15);
   justify-content: space-between;
   padding: 10px 50px;
+  height: 20vh;
 }
 
 .logo-img {
@@ -54,4 +55,44 @@
     -webkit-transform: rotate3d(1, 1, 0, -360deg);
     transform: rotate3d(1, 1, 0, -360deg);
   }
+}
+
+.burguer-img {
+  width: 50px;
+}
+
+.burguer-img,
+#burguer {
+  display: none;
+}
+
+.navBar {
+  height: 100%;
+}
+
+.nav-menu {
+  gap: 50px;
+  height: 100%;
+}
+
+.nav-menu a {
+  color: white;
+  transition: all 2s ease;
+}
+
+.nav-menu a:hover {
+  transition: all 2s ease;
+  color: #ebbf34;
+}
+
+.nav-menu li {
+  height: 80%;
+  transition: all 2s ease;
+  border: 1px solid transparent;
+}
+
+.nav-menu li:hover {
+  border-bottom: 1px solid #ebbf34;
+  transition: all 2s ease;
+  border-radius: 5px;
 }
