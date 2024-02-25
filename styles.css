@@ -28,17 +28,23 @@ body {
 }
 
 .header {
-  background-color: var(--color-bg);
+  /* background-color: var(--color-bg); */
+  background: rgb(16, 15, 15);
+  background: linear-gradient(
+    180deg,
+    rgba(16, 15, 15, 1) 12%,
+    rgba(65, 62, 56, 1) 100%
+  );
   justify-content: space-between;
-  padding: 10px 50px;
-  height: 20vh;
+  padding: 0px 50px;
+  height: 10vh;
   width: 100%;
   position: fixed;
   top: 0;
 }
 
 .logo-img {
-  width: 100px;
+  width: 50px;
   -webkit-animation: rotate-diagonal-1 5s linear 1s 2;
   animation: rotate-diagonal-1 5s linear 1s 2;
 }
@@ -116,14 +122,15 @@ body {
 
 .section-inicio {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background: url(./img/fondo-anillo.png) center center no-repeat;
   background-size: cover;
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 30px;
+  padding-top: 10px;
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 .inicio-title {
@@ -135,5 +142,5 @@ body {
 .inicio-text {
   font-size: 1rem;
   color: var(--golden-light);
-  width: 85%;
+  width: 70%;
 }
