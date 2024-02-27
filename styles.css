@@ -11,7 +11,7 @@
 }
 
 :root {
-  --color-bg: #100f0f;
+  --black: #000000;
   --golden: #ebbf34;
   --golden-light: #e2cab3;
   --grey: #2d2c2a;
@@ -116,8 +116,9 @@ body {
 .section-inicio {
   width: 100%;
   height: 90vh;
-  background: url(./img/fondo-anillo.png) center center no-repeat;
-  background-size: cover;
+  /* background: url(./img/fondo-anillo.png) center center no-repeat;
+  background-size: cover; */
+  background: url(./img/fondo-anillo.png) no-repeat center/cover;
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 50px;
@@ -151,4 +152,84 @@ body {
     rgba(16, 15, 15, 1) 12%,
     rgba(65, 62, 56, 1) 100%
   );
+  padding-top: 3rem;
+  gap: 50px;
+}
+
+.section-title {
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+}
+
+.section-title,
+.section-text {
+  color: var(--golden);
+}
+
+.section-text {
+  width: 80%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.escenas-contenedor {
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.escenas-card {
+  width: 350px;
+  flex-direction: column;
+  background-color: var(--black);
+  border-radius: 10px;
+  justify-content: flex-start;
+  padding-bottom: 15px;
+  gap: 10px;
+}
+
+.escenas-card-text {
+  flex-direction: column;
+  gap: 10px;
+  color: var(--golden-light);
+  text-align: center;
+  width: 90%;
+}
+
+.card-text {
+  font-size: 0.8rem;
+}
+
+.escenas-card-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 9px 9px 0 0;
+}
+
+.img1 {
+  background: url(./img/escena1.jpg) no-repeat center/cover;
+}
+
+.img2 {
+  background: url(./img/escena2.jpg) no-repeat center/cover;
+}
+.img3 {
+  background: url(./img/escena3.avif) no-repeat center/cover;
+}
+.img4 {
+  background: url(./img/escena4.jpg) no-repeat center/cover;
+}
+.img5 {
+  background: url(./img/escena5.jpg) no-repeat center/cover;
+}
+.img6 {
+  background: url(./img/escena6.jpg) no-repeat center/cover;
+}
+.img7 {
+  background: url(./img/escena7.avif) no-repeat center/cover;
+}
+.img8 {
+  background: url(./img/escena8.jpg) no-repeat center/cover;
 }
