@@ -98,12 +98,6 @@ body {
 
 .nav-menu a {
   color: var(--golden-light);
-  transition: all 2s ease;
-}
-
-.nav-menu a:hover {
-  transition: all 2s ease;
-  color: #ebbf34;
 }
 
 .nav-menu li {
@@ -127,8 +121,8 @@ body {
   background-size: cover;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 30px;
-  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-top: 20px;
   text-align: center;
   margin-top: 10vh;
 }
@@ -144,3 +138,7 @@ body {
   color: var(--golden-light);
   width: 70%;
 }
+
+/* ************************************** */
+
+/* SECTION - MEJORES ESCENAS */
