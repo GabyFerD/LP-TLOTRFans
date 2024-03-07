@@ -17,6 +17,11 @@
   --grey: #2d2c2a;
 }
 
+html {
+  scroll-padding-top: 10vh;
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
 }
@@ -126,7 +131,6 @@ body {
   padding-top: 20px;
   text-align: center;
   margin-top: 10vh;
-  scroll-margin-top: 10vh;
 }
 
 .inicio-title {
@@ -156,7 +160,6 @@ body {
   );
   padding-top: 3rem;
   gap: 50px;
-  scroll-margin-top: 10vh;
 }
 
 .section-title {
