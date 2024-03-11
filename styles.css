@@ -18,7 +18,7 @@
 }
 
 html {
-  scroll-padding-top: 10vh;
+  /* scroll-padding-top: 10vh; */
   scroll-behavior: smooth;
 }
 
@@ -33,12 +33,12 @@ body {
 }
 
 .header {
-  /* background: rgb(16, 15, 15);
+  background: rgb(16, 15, 15);
   background: linear-gradient(
     180deg,
     rgba(16, 15, 15, 1) 12%,
-    rgba(65, 62, 56, 1) 100%
-  ); */
+    rgba(65, 62, 56, 0.5327380952380952) 100%
+  );
   justify-content: space-between;
   padding: 0px 50px;
   height: 10vh;
@@ -121,16 +121,16 @@ body {
 
 .section-hero {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   /* background: url(./img/fondo-anillo.png) center center no-repeat;
   background-size: cover; */
   background: url(./img/fondo-anillo\ -\ copia.png) no-repeat center/cover;
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 50px;
-  padding-top: 40px;
+  padding-top: 15vh;
   text-align: center;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
 }
 
 .inicio-title {
@@ -151,7 +151,8 @@ body {
     rgba(65, 62, 56, 1) 100%
   ); */
   justify-content: space-around;
-  height: 90vh;
+  height: 100vh;
+  padding-top: 10vh;
 }
 
 .img-about-us {
@@ -189,7 +190,7 @@ span {
     rgba(16, 15, 15, 1) 12%,
     rgba(65, 62, 56, 1) 100%
   );
-  padding-top: 3rem;
+  padding-top: 15vh;
   gap: 50px;
 }
 
@@ -274,7 +275,7 @@ span {
 
 /* PRUEBA DE BACKGROUN */
 
-.header,
+/* .header, */
 .section-about-us,
 .section-escenas {
   background-color: #100f0f;
