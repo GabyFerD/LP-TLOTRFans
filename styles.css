@@ -303,6 +303,8 @@ button:hover {
   border: 2px solid transparent;
 }
 
+/* IMAGENES KPOP */
+
 .product-img1 {
   background: url(./imgTienda/aragonpop.jpg) no-repeat center/cover;
 }
@@ -321,6 +323,38 @@ button:hover {
 
 .product-img5 {
   background: url(./imgTienda/balrogpop.jpg) no-repeat center/cover;
+}
+
+/* IMAGENES FIGURAS */
+
+.product-img6 {
+  background: url(./imgTienda/figuragandalf.jpg) no-repeat center/cover;
+}
+
+.product-img7 {
+  background: url(./imgTienda/figuranazgul.jpg) no-repeat center/cover;
+}
+
+.product-img8 {
+  background: url(./imgTienda/figurasauron.jpg) no-repeat center/cover;
+}
+
+/* IMAGENES TAZAS */
+
+.product-img9 {
+  background: url(./imgTienda/taza1.jpg) no-repeat center/cover;
+}
+
+.product-img10 {
+  background: url(./imgTienda/taza2.png) no-repeat center/cover;
+}
+
+.product-img11 {
+  background: url(./imgTienda/tazagandalf.png) no-repeat center/cover;
+}
+
+.product-img12 {
+  background: url(./imgTienda/beerglass.jpg) no-repeat center/cover;
 }
 
 /* ************************************** */
