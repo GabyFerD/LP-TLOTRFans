@@ -279,10 +279,6 @@ span {
   border-radius: 5px;
 }
 
-.product-img1 {
-  background: url(./imgTienda/aragonpop.jpg) no-repeat center/cover;
-}
-
 .product-title {
   color: var(--golden-light);
   font-family: "Cinzel", serif;
@@ -305,6 +301,26 @@ button:hover {
   background-color: var(--golden-light);
   color: white;
   border: 2px solid transparent;
+}
+
+.product-img1 {
+  background: url(./imgTienda/aragonpop.jpg) no-repeat center/cover;
+}
+
+.product-img2 {
+  background: url(./imgTienda/frodopop.jpg) no-repeat center/cover;
+}
+
+.product-img3 {
+  background: url(./imgTienda/gandalfpop.jpg) no-repeat center/cover;
+}
+
+.product-img4 {
+  background: url(./imgTienda/legolaspop.jpg) no-repeat center/cover;
+}
+
+.product-img5 {
+  background: url(./imgTienda/balrogpop.jpg) no-repeat center/cover;
 }
 
 /* ************************************** */
